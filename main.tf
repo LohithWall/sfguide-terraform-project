@@ -12,7 +12,7 @@ provider "snowflake" {
   username = "tf-snow"
   account  = "QW66955"
   region   = "ap-south-1.aws"
-  private_key_path = "~/.ssh/snowflake_tf_snow_key.pub"
+  private_key_path = "~/.ssh/snowflake_tf_snow_key.p8"
 }
 
 resource "snowflake_database" "db" {
