@@ -21,7 +21,7 @@ resource "snowflake_database" "db" {
 
 resource "snowflake_warehouse" "warehouse" {
   name           = "TF_DEMO"
-  warehouse_size = "large"
+  warehouse_size = "X-Small"
 
   auto_suspend = 60
 }
